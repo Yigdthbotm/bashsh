@@ -18,7 +18,7 @@ cp -r "$TEMP_DIR/extracted/"* "$PANEL_DIR"
 
 echo "== Build ulang panel..."
 cd "$PANEL_DIR" || exit
-npm install
+yarn install
 npm run build:production
 
 echo "== Instalasi selesai! SecureLogger Extension aktif."
