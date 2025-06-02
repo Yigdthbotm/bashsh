@@ -1,0 +1,10 @@
+{
+    "name": "Secure Logger Full",
+    "author": "Imam",
+    "version": "1.0.1",
+    "description": "Blueprint lengkap: 2FA, log Telegram, notifikasi audio.",
+    "required_permissions": [
+        "admin"
+    ],
+    "id": "secure-logger"
+}
